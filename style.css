@@ -1,0 +1,49 @@
+body {
+    background-color:  rgba(41, 2, 89, 0.57);
+    color: white;
+
+}
+
+#clock {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+}
+
+#clock h2 {
+    font-size: 35px;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+
+}
+
+.clock-items {
+    width: 30%;
+    background-color: white;
+    color: rgba(41, 2, 89, 0.57);
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#date{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
